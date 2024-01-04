@@ -1,0 +1,99 @@
+body { 
+    background-color:blanchedalmond;
+}
+
+header { 
+    text-align: center;
+    color:crimson;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size:x-large;
+}
+
+h1 { 
+    float: right;
+    clear: none;
+    color: teal;
+}
+
+#logo { 
+    float: left;
+    clear: none;
+    width:100px; 
+    height:100px;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px;
+}
+
+li {
+    float: left;
+    clear:none;
+}
+
+li a { 
+    display: block;
+    padding: 8px;
+    background-color: azure; 
+    text-decoration: line;
+} 
+
+#firstpic { 
+    float: left; 
+    clear: both; 
+    width: 300px; 
+    height: 300px;
+}
+
+
+em { 
+    position: absolute; 
+    top: 15%; 
+    right: 0%; 
+    left: 79%; 
+    bottom: 50%;
+}
+
+#first { 
+    clear: both;
+    text-align: right;
+    position: absolute; 
+    top: 30%; 
+    right: 5%;
+    left: 63%; 
+    bottom: 30%;
+}
+
+#secondpic { 
+    float: right; 
+    clear: both; 
+    width: 300px; 
+    height: 300px;
+}
+
+#second { 
+    clear: both;
+    text-align: left;
+    position: absolute; 
+    top: 70%; 
+    right: 63%;
+    left: 5%; 
+    bottom: 15%;
+}
+
+footer {
+    position: absolute; 
+    top: 100%; 
+    right: 81%;
+    left: 5%; 
+    bottom: 0%;
+    padding: 5px;
+    text-align: center; 
+    font-weight: bold; 
+}
+
+
+
+

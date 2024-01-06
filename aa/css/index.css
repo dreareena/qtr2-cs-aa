@@ -1,6 +1,7 @@
 body { 
     background-color:blanchedalmond;
 }
+
 header { 
     text-align: center;
     color:crimson;
@@ -21,6 +22,16 @@ h1 {
     height:100px;
 }
 
+
+.pages{
+    float: right;
+    position: absolute; 
+    top: 5%; 
+    right: 15%; 
+    left: 0%; 
+    bottom: 50%;
+}
+
 ul { 
     list-style-type: none;
     margin: 0px; 
@@ -36,8 +47,26 @@ li a {
     display: block;
     padding: 8px;
     background-color: azure; 
-    text-decoration: line;
+    text-decoration: none;
 } 
+
+li a:link { 
+    background-color: azure; 
+    text-decoration: none; 
+}
+
+li a:hover { 
+    color: antiquewhite;
+}
+
+li a:active { 
+    color:bisque;
+}
+
+li a:visited { 
+    background-color:cornflowerblue;
+}
+
 
 #flag { 
     float: left;

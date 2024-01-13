@@ -103,6 +103,14 @@ footer {
     font-weight: bold; 
 }
 
+.sprite1 { 
+    background: url('/images/imagesprite.png') no-repeat -352px -134px;
+	width: 89px;
+	height: 88px;
+}
+
+
+
 
 
 

@@ -39,7 +39,7 @@ ul {
 
 li {
     float: left;
-    clear:none;
+    clear: none;
 }
 
 li a { 
@@ -76,44 +76,84 @@ li a:visited {
 em { 
     clear: both;
     position: absolute; 
-    top: 11%; 
-    right: 37%; 
+    top: 15%; 
+    right: 24%; 
     left: 41%; 
-    bottom: 54%;
+    bottom: 100%;
 }
 
 #pic1 { 
     float: left; 
     clear: none; 
-    width: 450px; 
-    height: 450px;
+    padding: 20px;
+    width: 350px; 
+    height: 350px;
+    margin-top: 150px;
+
 }
 
-#video { 
+#pic2 { 
     float: left; 
     clear: none; 
-    width: 450px; 
-    height: 450px;
+    padding: 20px;
+    width: 350px; 
+    height: 350px;
+    margin-top: 150px;
 }
 
 #pic3 { 
     float: left; 
     clear: none; 
-    width: 450px; 
-    height: 450px;
+    padding: 20px;
+    width: 350px; 
+    height: 350px;
+    margin-top: 150px;
 }
 
-p { 
-    clear: both;
-    text-align: left;
-    position: absolute; 
-    top: 79%; 
-    right: 10%;
-    left: 7%; 
-    bottom: 33%;
-    
+.images { 
+    margin-left: 200px; 
+    align-items: auto;
 }
 
+#box1 { 
+    float: left; 
+    clear: none;
+    border: 2px black solid; 
+    background-color: slategray; 
+    position: relative;
+    top: 50%; 
+    bottom: 20%; 
+    right: 44%; 
+    left: 17%;
+}
+
+#box2 { 
+    float: left; 
+    clear: none;
+    border: 2px black solid; 
+    background-color: slategray; 
+    position: relative;
+    top: 50%; 
+    bottom: 20%; 
+    right: 25%; 
+    left: 25%;
+}
+
+#box3 { 
+    float: left; 
+    clear: none;
+    border: 2px black solid; 
+    background-color: slategray; 
+    position: relative;
+    top: 50%; 
+    bottom: 20%; 
+    right: 67%; 
+    left: 33%;
+}
+
+span { 
+    display: block;
+}
 
 footer {
     position: absolute; 
@@ -125,6 +165,13 @@ footer {
     text-align: center; 
     font-weight: bold; 
 }
+
+
+
+
+
+
+
 
 
 

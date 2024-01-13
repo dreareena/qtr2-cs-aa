@@ -53,7 +53,7 @@ li a:link {
 }
 
 li a:hover { 
-    color:cadetblue;
+    color: antiquewhite;
 }
 
 li a:active { 
@@ -116,6 +116,12 @@ footer {
     padding: 5px;
     text-align: center; 
     font-weight: bold; 
+}
+
+.sprite1 {
+    background: url('/images/imagesprite.png') no-repeat -352px -134px;
+	width: 89px;
+	height: 89px;
 }
 
 

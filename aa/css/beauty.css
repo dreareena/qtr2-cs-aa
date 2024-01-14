@@ -82,23 +82,35 @@ em {
     bottom: 54%;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 #pic1 { 
     float: left; 
-    clear: none; 
+    clear: none;
     width: 450px; 
     height: 450px;
 }
 
 #video { 
-    float: left; 
-    clear: none; 
+    /*float: left; 
+    clear: none;*/
     width: 450px; 
     height: 450px;
 }
 
 #pic2 { 
-    float: left; 
-    clear: none; 
+    /*float: left; 
+    clear: none;*/
     width: 450px; 
     height: 450px;
 }

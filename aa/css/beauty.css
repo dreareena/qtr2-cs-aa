@@ -96,7 +96,7 @@ em {
     height: 450px;
 }
 
-#pic3 { 
+#pic2 { 
     float: left; 
     clear: none; 
     width: 450px; 
@@ -107,24 +107,81 @@ p {
     clear: both;
     text-align: left;
     position: absolute; 
-    top: 79%; 
+    top: 71%; 
     right: 10%;
     left: 7%; 
-    bottom: 33%;
+    bottom: 45%;
     
+}
+
+
+#names {
+    position: absolute; 
+    top: 90%; 
+    right: 25%;
+    left: 25%; 
+    bottom: 15%;
+    padding: 5px;
+    text-align: center; 
+    font-weight: bold; 
 }
 
 
 footer {
     position: absolute; 
-    top: 100%; 
-    right: 25%;
-    left: 25%; 
-    bottom: 0%;
+    top: 95%; 
+    right: 41%;
+    left: 46%; 
+    bottom: 5%;
     padding: 5px;
-    text-align: center; 
-    font-weight: bold; 
 }
+.sprite1{
+    position: relative;
+    background:url(../images/imagesprite.png) no-repeat -153px -23px;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite1:hover{
+    background:url(../images/imagesprite.png) no-repeat -153px -77px;
+    width: 39px;
+    height: 39px;
+}
+
+.sprite2 {
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -50px -23px;
+	width: 38px;
+	height: 39px;
+    display: inline-block;
+}
+.sprite2:hover{
+    background: url(../images/imagesprite.png) no-repeat -50px -77px;
+	width: 38px;
+	height: 39px;
+}
+
+.sprite3{
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -205px -23px;
+    width: 38px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite3:hover{
+    background: url(../images/imagesprite.png) no-repeat -205px -77px;
+    width: 38px;
+    height: 39px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

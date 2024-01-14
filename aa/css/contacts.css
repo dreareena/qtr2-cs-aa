@@ -155,16 +155,78 @@ span {
     display: block;
 }
 
-footer {
+#names {
     position: absolute; 
-    top: 100%; 
+    top: 93%; 
     right: 25%;
     left: 25%; 
-    bottom: 0%;
+    bottom: 7%;
     padding: 5px;
     text-align: center; 
     font-weight: bold; 
 }
+
+
+footer {
+    position: absolute; 
+    top: 100%; 
+    right: 41%;
+    left: 46%; 
+    bottom: 0%;
+    padding: 5px;
+}
+.sprite1{
+    position: relative;
+    background:url(../images/imagesprite.png) no-repeat -153px -23px;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite1:hover{
+    background:url(../images/imagesprite.png) no-repeat -153px -77px;
+    width: 39px;
+    height: 39px;
+}
+
+.sprite2 {
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -50px -23px;
+	width: 38px;
+	height: 39px;
+    display: inline-block;
+}
+.sprite2:hover{
+    background: url(../images/imagesprite.png) no-repeat -50px -77px;
+	width: 38px;
+	height: 39px;
+}
+
+.sprite3{
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -205px -23px;
+    width: 38px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite3:hover{
+    background: url(../images/imagesprite.png) no-repeat -205px -77px;
+    width: 38px;
+    height: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

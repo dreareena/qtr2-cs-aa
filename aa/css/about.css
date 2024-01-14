@@ -84,9 +84,9 @@ em {
     clear: both;
     text-align: right;
     position: absolute; 
-    top: 30%; 
-    right: 5%;
-    left: 63%; 
+    top: 20%; 
+    right: 3%;
+    left: 57%; 
     bottom: 30%;
 }
 
@@ -101,28 +101,86 @@ em {
     clear: both;
     text-align: left;
     position: absolute; 
-    top: 70%; 
-    right: 63%;
-    left: 5%; 
-    bottom: 15%;
+    top: 65%; 
+    right: 49%;
+    left: 3%; 
+    bottom: 20%;
 }
 
-footer {
+#names {
     position: absolute; 
-    top: 100%; 
+    top: 95%; 
     right: 81%;
-    left: 5%; 
-    bottom: 0%;
+    left: 0%; 
+    bottom: 3%;
     padding: 5px;
     text-align: center; 
     font-weight: bold; 
 }
 
-.sprite1 {
-    background: url('/images/imagesprite.png') no-repeat -352px -134px;
-	width: 89px;
-	height: 89px;
+
+footer {
+    position: absolute; 
+    top: 100%; 
+    right: 70%;
+    left: 3%; 
+    bottom: 0%;
+    padding: 5px;
 }
+.sprite1{
+    position: relative;
+    background:url(../images/imagesprite.png) no-repeat -153px -23px;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite1:hover{
+    background:url(../images/imagesprite.png) no-repeat -153px -77px;
+    width: 39px;
+    height: 39px;
+}
+
+.sprite2 {
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -50px -23px;
+	width: 38px;
+	height: 39px;
+    display: inline-block;
+}
+.sprite2:hover{
+    background: url(../images/imagesprite.png) no-repeat -50px -77px;
+	width: 38px;
+	height: 39px;
+}
+
+.sprite3{
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -205px -23px;
+    width: 38px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite3:hover{
+    background: url(../images/imagesprite.png) no-repeat -205px -77px;
+    width: 38px;
+    height: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

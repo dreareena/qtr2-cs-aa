@@ -1,0 +1,187 @@
+body { 
+    background-color:blanchedalmond;
+}
+
+header { 
+    text-align: center;
+    color:crimson;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size:x-large;
+}
+
+h1 { 
+    float: right;
+    clear: none;
+    color: teal;
+}
+
+#logo { 
+    float: left;
+    clear: none;
+    width:100px; 
+    height:100px;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px;
+}
+
+li {
+    float: left;
+    clear:none;
+}
+
+li a { 
+    display: block;
+    padding: 8px;
+    background-color: azure; 
+    text-decoration: line;
+} 
+
+li a { 
+    display: block;
+    padding: 8px;
+    background-color: azure; 
+    text-decoration: none;
+} 
+
+li a:link { 
+    background-color: azure; 
+    text-decoration: none; 
+}
+
+li a:hover { 
+    color: antiquewhite;
+}
+
+li a:active { 
+    color:bisque;
+}
+
+li a:visited { 
+    background-color:cornflowerblue;
+}
+
+#firstpic { 
+    float: left; 
+    clear: both; 
+    width: 300px; 
+    height: 300px;
+}
+
+
+em { 
+    position: absolute; 
+    top: 15%; 
+    right: 0%; 
+    left: 79%; 
+    bottom: 50%;
+}
+
+#first { 
+    clear: both;
+    text-align: right;
+    position: absolute; 
+    top: 20%; 
+    right: 3%;
+    left: 57%; 
+    bottom: 30%;
+}
+
+#secondpic { 
+    float: right; 
+    clear: both; 
+    width: 300px; 
+    height: 300px;
+}
+
+#second { 
+    clear: both;
+    text-align: left;
+    position: absolute; 
+    top: 65%; 
+    right: 49%;
+    left: 3%; 
+    bottom: 20%;
+}
+
+#names {
+    position: absolute; 
+    top: 95%; 
+    right: 81%;
+    left: 0%; 
+    bottom: 3%;
+    padding: 5px;
+    text-align: center; 
+    font-weight: bold; 
+}
+
+
+footer {
+    position: absolute; 
+    top: 100%; 
+    right: 70%;
+    left: 3%; 
+    bottom: 0%;
+    padding: 5px;
+}
+.sprite1{
+    position: relative;
+    background:url(../images/imagesprite.png) no-repeat -153px -23px;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite1:hover{
+    background:url(../images/imagesprite.png) no-repeat -153px -77px;
+    width: 39px;
+    height: 39px;
+}
+
+.sprite2 {
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -50px -23px;
+	width: 38px;
+	height: 39px;
+    display: inline-block;
+}
+.sprite2:hover{
+    background: url(../images/imagesprite.png) no-repeat -50px -77px;
+	width: 38px;
+	height: 39px;
+}
+
+.sprite3{
+    position: relative;
+    background: url(../images/imagesprite.png) no-repeat -205px -23px;
+    width: 38px;
+    height: 39px;
+    display: inline-block;
+}
+.sprite3:hover{
+    background: url(../images/imagesprite.png) no-repeat -205px -77px;
+    width: 38px;
+    height: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
